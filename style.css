@@ -703,14 +703,11 @@ footer span a:hover{
     cursor: pointer;
     overflow: hidden;
 }
-.d-box:hover .image img {
-    transform: scale(1.1);
+.d-box img {
+    height: 600px;
+    transition: .4s;
 }
-.d-box .image {
-    height: 220px;
-    overflow: hidden;
-}
-.d-box .image img {
+.d-box  img {
     transition: .4s;
 }
 
